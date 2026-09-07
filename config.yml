@@ -1,0 +1,125 @@
+# ---------------------------------------------------------------------------
+# Juventus Women calendar -- configuration
+# ---------------------------------------------------------------------------
+
+calendar_name: "Juventus Women"
+calendar_description: >-
+  All Juventus Women fixtures: Serie A Women, Women's Champions League,
+  Coppa Italia Femminile, Serie A Women's Cup and Supercoppa.
+  Built daily from public sources. Times in UTC, your calendar converts them.
+
+# Shown at the start of every event title. Set to "" if you don't want it.
+event_prefix: "⚪️⚫️ "
+home_marker: "(H)"
+away_marker: "(A)"
+
+# How much past history to keep in the feed.
+keep_past_days: 400
+
+# ---------------------------------------------------------------------------
+# Source 1: fixtur.es ICS feed -- no API key needed.
+# Verified to carry Serie A Women + Women's Champions League with kickoff
+# times. It does NOT carry the cup competitions, which is why source 2 and
+# overrides.yml exist.
+# ---------------------------------------------------------------------------
+fixtures_ics:
+  url: "https://ics.fixtur.es/v2/juventus-women.ics"
+
+# ---------------------------------------------------------------------------
+# Source 2: TheSportsDB -- covers the cups too, and supplies venue names.
+# Get a free key at https://www.thesportsdb.com/ and put it in the
+# SPORTSDB_KEY environment variable (a GitHub Actions secret).
+# The public test key "3" returns truncated results, so it is not useful here.
+#
+# IDs below were looked up from the live API and are correct as of Sept 2026.
+# ---------------------------------------------------------------------------
+thesportsdb:
+  team_id: 143652 # Juventus Women
+  # api_key: "..."   # prefer the SPORTSDB_KEY env var over hardcoding
+  leagues:
+    - name: "Serie A Women"
+      id: 5205
+      seasons: ["2026-2027", "2025-2026"]
+    - name: "UEFA Women's Champions League"
+      id: 4889
+      seasons: ["2026-2027", "2025-2026"]
+    - name: "Coppa Italia Women"
+      id: 5632
+      seasons: ["2026-2027", "2025-2026"]
+    - name: "Serie A Women's Cup"
+      id: 5919
+      # NB: this competition uses single-year season labels, not 2026-2027
+      seasons: ["2026", "2025"]
+
+# ---------------------------------------------------------------------------
+# Per-match TV / streaming lookup.
+#
+# This is the part that does what you'd otherwise google as
+# "Juventus Milan femminile 6/9/2026 dove vederla". It only looks at fixtures
+# in the next `lookahead_days`, because these previews don't exist months
+# ahead -- no point requesting pages that can't be there yet.
+#
+# It also harvests the KICKOFF TIME out of those articles, which is often
+# where the time appears before any fixture feed picks it up.
+# ---------------------------------------------------------------------------
+broadcast_lookup:
+  enabled: true
+  lookahead_days: 12
+
+  # Try the club's own "Dove vedere X-Y" article first. Most authoritative,
+  # and it usually states the kickoff time too.
+  use_official: true
+
+  # WordPress RSS feeds. One request each returns ~30 full articles, so this
+  # is cheap and needs no page-by-page scraping.
+  feeds:
+    - name: "juventusnews24"
+      url: "https://www.juventusnews24.com/juventus-women/feed/"
+      enabled: true
+    - name: "lfootball"
+      url: "https://www.lfootball.it/feed/"
+      enabled: true
+
+# ---------------------------------------------------------------------------
+# Fallback broadcast rules, matched as a substring against the competition
+# name. These are only used when the per-match lookup above finds nothing,
+# and events say so ("usual broadcaster -- unconfirmed") rather than pretending
+# to be certain.
+#
+# Real coverage varies per game: in 2026 the Women's Cup group match against
+# Como Women went out free on the Serie A Women YouTube channel while the
+# Milan game was on Sky Sport and NOW. So treat these as a hint only.
+# ---------------------------------------------------------------------------
+broadcasters:
+  "serie a women's cup": ["Sky Sport", "NOW"]
+  "womens cup": ["Sky Sport", "NOW"]
+  "serie a women": ["DAZN", "Rai Sport / RaiPlay"]
+  "champions league": ["Disney+"]
+  "coppa italia": ["Rai Sport / RaiPlay"]
+  "supercoppa": ["Rai Sport / RaiPlay"]
+
+# ---------------------------------------------------------------------------
+# Club name normalisation. Sources spell the same club several ways, and
+# without this the merge step would create duplicate events.
+# ---------------------------------------------------------------------------
+team_aliases:
+  Juventus: ["Juventus Women", "Juventus Femminile", "Juve Women"]
+  Milan: ["AC Milan Women", "Milan Women", "Milan Femminile"]
+  Inter: ["Inter Women", "Inter Milan Women", "FC Internazionale Women"]
+  Roma: ["AS Roma Women", "Roma Women", "Roma Femminile"]
+  Fiorentina: ["ACF Fiorentina Women", "Fiorentina Women", "Fiorentina Femminile"]
+  Sassuolo: ["US Sassuolo Women", "Sassuolo Women", "Sassuolo Femminile"]
+  Lazio: ["S.S. Lazio Women", "SS Lazio Women", "Lazio Women"]
+  Napoli: ["Napoli Women", "Napoli Femminile"]
+  Parma: ["Parma Women", "Parma Femminile"]
+  Ternana: ["Ternana Women", "Ternana Femminile"]
+  "Como Women": ["FCF Como 2000", "Como 2000"]
+  "Como 1907": ["Como 1907 Women", "Como 1907 Femminile"]
+  Genoa: ["Genoa Women", "Genoa Femminile"]
+  "OL Lyonnes": ["Olympique Lyon Women", "Olympique Lyonnais Women", "Lyon Women"]
+  Benfica: ["Benfica Women", "SL Benfica Women"]
+  "BK Häcken": ["Hacken Women", "Häcken Women", "BK Hacken Women"]
+  "Austria Wien": ["Austria Wien Women", "FK Austria Wien Women"]
+  "OH Leuven": ["OH Leuven Women", "Oud-Heverlee Leuven Women"]
+  "Paris Saint-Germain": ["PSG Women", "Paris Saint-Germain Women"]
+  "St. Pölten": ["St. Polten Women", "SKN St. Pölten Women"]

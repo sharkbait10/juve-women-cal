@@ -1,0 +1,17 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Juventus Women calendar</title>
+<style>
+  body{font:16px/1.6 system-ui,sans-serif;max-width:34rem;margin:8vh auto;padding:0 1.2rem;color:#111}
+  code{background:#f2f2f2;padding:.15rem .35rem;border-radius:3px;word-break:break-all}
+  a.btn{display:inline-block;background:#111;color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:5px}
+</style>
+<h1>⚪️⚫️ Juventus Women — all competitions</h1>
+<p>Serie A Women, Women's Champions League, Coppa Italia, Serie A Women's Cup
+   and Supercoppa, with venue and broadcaster where known. Rebuilt twice daily.</p>
+<p><a class="btn" href="juventus-women.ics">Subscribe / download .ics</a></p>
+<p>To subscribe by URL, use:<br><code id="u"></code></p>
+<script>
+  document.getElementById('u').textContent =
+    location.href.replace(/index\.html$/, '') + 'juventus-women.ics';
+</script>

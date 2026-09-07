@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------------------
+# Manual layer. Two jobs:
+#
+#   1. `matches`      -- add or correct a fixture. Use this when a game has
+#                        just been drawn and hasn't reached the data feeds yet
+#                        (cup draws typically take days to appear), or when a
+#                        source has it wrong.
+#   2. `tv_overrides` -- set the broadcaster for one specific game, overriding
+#                        the per-competition default in config.yml.
+#
+# Anything here wins over the automatic sources. Entries for games already in
+# the past are harmless -- delete them whenever you feel like tidying up.
+# ---------------------------------------------------------------------------
+
+matches:
+  # Serie A Women's Cup semifinal -- drawn 7 September 2026, Juventus at home
+  # to Inter. No fixture feed has it yet, so it lives here until they catch up.
+  #
+  # Deliberately no `time` and no `tv`: the broadcast lookup finds the club's
+  # own "Dove vedere Juventus-Inter" article and fills in both (18:30, Sky
+  # Sport / Sky Go / NOW). Add them here only if you want to override it.
+  - date: "2026-09-12"
+    opponent: "Inter"
+    home: true
+    competition: "Serie A Women's Cup"
+    round: "Semifinal"
+    venue: "Stadio Comunale Vittorio Pozzo-La Marmora, Biella"
+
+  # The final, if Juventus get there. Date, time and venue are confirmed;
+  # the opponent isn't, so it shows as TBD until the other semi is played.
+  # Delete this block if they don't qualify.
+  - date: "2026-09-19"
+    opponent: "TBD"
+    home: false
+    competition: "Serie A Women's Cup"
+    round: "Final"
+    time: "18:00"
+    venue: "Stadio dei Pini Torquato Bresciani, Viareggio"
+
+# ---------------------------------------------------------------------------
+# Per-match broadcaster overrides. Matched on date + opponent.
+# ---------------------------------------------------------------------------
+tv_overrides:
+  # Example: a league game additionally streamed free on the club channel.
+  # - date: "2026-09-26"
+  #   opponent: "Napoli"
+  #   tv: ["DAZN", "Juventus YouTube (free)"]
+  []
