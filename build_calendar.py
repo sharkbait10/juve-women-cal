@@ -70,6 +70,7 @@ class Match:
     score: str | None = None
     status: str | None = None  # e.g. "FT", "postponed"
     broadcasters: list[str] = field(default_factory=list)
+    uk_broadcasters: list[str] = field(default_factory=list)
     broadcast_source: str | None = None
     broadcast_url: str | None = None
     free_to_air: bool = False
@@ -497,7 +498,9 @@ def apply_broadcasters(
 
         # 2. per-match article, if we found one
         info = resolved.get(match.key)
-        if info and not manual:
+        if info and info.uk_channels:
+            match.uk_broadcasters = list(info.uk_channels)
+        if info and info.channels and not manual:
             match.broadcasters = list(info.channels)
             match.broadcast_source = info.source_name
             match.broadcast_url = info.source_url
@@ -516,6 +519,15 @@ def apply_broadcasters(
                 match.start = local.replace(tzinfo=_rome()).astimezone(timezone.utc)
                 match.time_source = info.source_name
                 times_recovered += 1
+
+        # Standing regional notes, e.g. "beIN Sports (MENA/Asia)" for the
+        # Champions League. Appended, not substituted.
+        for comp_key, channels in (cfg.get("extra_channels", {}) or {}).items():
+            if comp_key.lower() in (match.competition or "").lower():
+                for ch in channels:
+                    if ch not in match.uk_broadcasters:
+                        match.uk_broadcasters.append(ch)
+                break
 
         # 3. explicit manual override always wins
         explicit = per_match.get(match.key)
@@ -672,6 +684,8 @@ def _description(match: Match) -> str:
             rows.append(f"  {match.broadcast_url}")
     else:
         rows.append("TV / streaming: not announced")
+    if match.uk_broadcasters:
+        rows.append("Elsewhere: " + ", ".join(match.uk_broadcasters))
     if match.score:
         rows.append(f"Result: {match.score}")
     if not match.start:

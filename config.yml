@@ -66,6 +66,12 @@ broadcast_lookup:
   enabled: true
   lookahead_days: 12
 
+  # An article is only trusted if it was published within this many hours of
+  # kickoff AND, when it states a match date, that date matches the fixture.
+  # This exists because article slugs carry no year: without it, last
+  # season's "dove vedere Juventus-Inter" gets used for this season's game.
+  max_article_age_hours: 48
+
   # Try the club's own "Dove vedere X-Y" article first. Most authoritative,
   # and it usually states the kickoff time too.
   use_official: true
@@ -79,6 +85,27 @@ broadcast_lookup:
     - name: "lfootball"
       url: "https://www.lfootball.it/feed/"
       enabled: true
+
+  # UK channel listings. The Italian previews only name the Italian
+  # broadcaster; this adds the UK one. Useful mainly for the Champions
+  # League, where Disney+ has every match but the BBC's free-to-air picks
+  # change game by game.
+  uk_listings:
+    enabled: true
+    name: "live-footballontv.com"
+    url: "https://www.live-footballontv.com/womens-champions-league-on-tv.html"
+
+# ---------------------------------------------------------------------------
+# Standing regional channels, appended to the "Elsewhere:" line.
+#
+# beIN Sports holds UEFA Women's Champions League rights across 23 MENA
+# countries and 10 Asian markets through 2026/27, with commentary in Arabic,
+# English and French -- it is NOT a UK rights holder for this competition.
+# Listed here because a beIN feed carries every match, which is handy if you
+# can reach one.
+# ---------------------------------------------------------------------------
+extra_channels:
+  "champions league": ["beIN Sports (MENA/Asia feed, all matches)"]
 
 # ---------------------------------------------------------------------------
 # Fallback broadcast rules, matched as a substring against the competition
