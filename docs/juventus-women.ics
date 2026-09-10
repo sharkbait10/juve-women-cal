@@ -12,14 +12,14 @@ X-PUBLISHED-TTL:PT12H
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VEVENT
 UID:507ccd596901c7bc@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:715
 DTSTART:20251004T163000Z
 DTEND:20251004T182500Z
 SUMMARY:⚪️⚫️ Sassuolo – Juventus [0-0] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -27,7 +27,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:5f911a1033680a39@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:404
 DTSTART:20251007T164500Z
 DTEND:20251007T184000Z
@@ -35,21 +35,21 @@ SUMMARY:⚪️⚫️ Juventus – Benfica [2-1] (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 2-
- 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:ae3e638413b0b83a@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:119
 DTSTART:20251011T130000Z
 DTEND:20251011T145500Z
 SUMMARY:⚪️⚫️ Juventus – Como Women [0-0] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -57,7 +57,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:8bd988f5d893e22c@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:234
 DTSTART:20251016T190000Z
 DTEND:20251016T205500Z
@@ -65,21 +65,21 @@ SUMMARY:⚪️⚫️ Bayern Munchen Frauen – Juventus [2-1] (A) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 2-
- 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:68c5c8f199918d1a@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:844
 DTSTART:20251019T133000Z
 DTEND:20251019T152500Z
 SUMMARY:⚪️⚫️ Lazio – Juventus [0-1] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -87,14 +87,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:c5e6a4729de7534c@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:320
 DTSTART:20251102T140000Z
 DTEND:20251102T155500Z
 SUMMARY:⚪️⚫️ Juventus – Ternana [2-1] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -102,14 +102,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:4b1f8de8287a6c21@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:591
 DTSTART:20251108T130000Z
 DTEND:20251108T145500Z
 SUMMARY:⚪️⚫️ Milan – Juventus [2-1] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -117,7 +117,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:c105bc26ba766c4d@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:181
 DTSTART:20251112T200000Z
 DTEND:20251112T215500Z
@@ -126,21 +126,21 @@ SUMMARY:⚪️⚫️ Atlético Madrid Women – Juventus [1-2] (A) · UWC
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 1-
- 2\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 2\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:dc125cf3e761998d@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:290
 DTSTART:20251116T170000Z
 DTEND:20251116T185500Z
 SUMMARY:⚪️⚫️ Juventus – Genoa [2-0] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 2-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 2-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -148,7 +148,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:5e2e695720360b69@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:258
 DTSTART:20251119T174500Z
 DTEND:20251119T194000Z
@@ -156,21 +156,21 @@ SUMMARY:⚪️⚫️ Juventus – OL Lyonnes [3-3] (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 3-
- 3\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 3\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:1d73aaf24f72f2e8@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:892
 DTSTART:20251123T140000Z
 DTEND:20251123T155500Z
 SUMMARY:⚪️⚫️ Juventus – Fiorentina [1-0] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 1-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 1-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -178,14 +178,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:f0a240122d6bbb4c@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:926
 DTSTART:20251206T133000Z
 DTEND:20251206T152500Z
 SUMMARY:⚪️⚫️ Roma – Juventus [1-1] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 1-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 1-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -193,7 +193,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:d255b6b1cc9dfa64@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:853
 DTSTART:20251209T174500Z
 DTEND:20251209T194000Z
@@ -201,21 +201,21 @@ SUMMARY:⚪️⚫️ St. Pölten Women – Juventus [0-5] (A) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 0-
- 5\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 5\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:23b4977c49965df0@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:147
 DTSTART:20251213T113000Z
 DTEND:20251213T132500Z
 SUMMARY:⚪️⚫️ Juventus – Napoli [2-1] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -223,7 +223,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:f2e1920cd895079a@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:821
 DTSTART:20251217T200000Z
 DTEND:20251217T215500Z
@@ -232,21 +232,21 @@ SUMMARY:⚪️⚫️ Juventus – Manchester United Women [0-1] (H) · UW
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 0-
- 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:6a0f5b7dc0abd542@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:434
 DTSTART:20260118T143000Z
 DTEND:20260118T162500Z
 SUMMARY:⚪️⚫️ Inter – Juventus [2-1] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 2-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -254,14 +254,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:035774fa4fc6d496@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:446
 DTSTART:20260126T170000Z
 DTEND:20260126T185500Z
 SUMMARY:⚪️⚫️ Juventus – Parma [3-0] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 3-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 3-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -269,14 +269,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:6eb6a33c86c68ba5@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:869
 DTSTART:20260201T170000Z
 DTEND:20260201T185500Z
 SUMMARY:⚪️⚫️ Juventus – Sassuolo [4-0] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 4-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 4-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -284,14 +284,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:e90bfed33a821816@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:357
 DTSTART:20260207T140000Z
 DTEND:20260207T155500Z
 SUMMARY:⚪️⚫️ Como Women – Juventus [0-2] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-2\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-2\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -299,7 +299,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:4721b6d6ace527d8@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:779
 DTSTART:20260212T174500Z
 DTEND:20260212T194000Z
@@ -307,21 +307,21 @@ SUMMARY:⚪️⚫️ VFL Wolfsburg Frauen – Juventus [2-2] (A) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 2-
- 2\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 2\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:762d4af5ec035447@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:175
 DTSTART:20260215T140000Z
 DTEND:20260215T155500Z
 SUMMARY:⚪️⚫️ Juventus – Lazio [0-0] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -329,7 +329,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:49a9ceb6f6d479f2@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:691
 DTSTART:20260219T174500Z
 DTEND:20260219T194000Z
@@ -337,21 +337,21 @@ SUMMARY:⚪️⚫️ Juventus – VFL Wolfsburg Frauen [0-2] (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 0-
- 2\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 2\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:f4c783154a8c1bc1@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:789
 DTSTART:20260222T113000Z
 DTEND:20260222T132500Z
 SUMMARY:⚪️⚫️ Ternana – Juventus [2-2] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 2-2\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 2-2\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -359,14 +359,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:fa263b689e8f28d8@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:606
 DTSTART:20260315T130000Z
 DTEND:20260315T145500Z
 SUMMARY:⚪️⚫️ Juventus – Milan [0-1] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -374,14 +374,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:d952d025e3997860@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:490
 DTSTART:20260321T113000Z
 DTEND:20260321T132500Z
 SUMMARY:⚪️⚫️ Genoa – Juventus [0-0] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-0\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -389,14 +389,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:80583ab4251f9126@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:953
 DTSTART:20260404T103000Z
 DTEND:20260404T122500Z
 SUMMARY:⚪️⚫️ Fiorentina – Juventus [1-2] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 1-2\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 1-2\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -404,14 +404,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:14e0387fd6c88853@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:682
 DTSTART:20260425T103000Z
 DTEND:20260425T122500Z
 SUMMARY:⚪️⚫️ Juventus – Roma [0-1] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 0-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 0-1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -419,14 +419,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:8b033f656b2bd66e@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:758
 DTSTART:20260502T103000Z
 DTEND:20260502T122500Z
 SUMMARY:⚪️⚫️ Napoli – Juventus [2-3] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 2-3\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 2-3\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -434,14 +434,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:f63c7bb8987ce2d1@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:106
 DTSTART:20260510T130000Z
 DTEND:20260510T145500Z
 SUMMARY:⚪️⚫️ Juventus – Inter [3-3] (H) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 3-3\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 3-3\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -449,14 +449,14 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:e49d77f1298b0b88@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:484
 DTSTART:20260517T160000Z
 DTEND:20260517T175500Z
 SUMMARY:⚪️⚫️ Parma – Juventus [1-3] (A) · Serie A Women
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
- nfirmed)\nResult: 1-3\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 U
+ nfirmed)\nResult: 1-3\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 U
  TC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -464,7 +464,7 @@ CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:c3f85f462e3141a6@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:273
 DTSTART:20260805T190000Z
 DTEND:20260805T205500Z
@@ -472,14 +472,14 @@ SUMMARY:⚪️⚫️ Juventus – Torreense Women [2-1] (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 2-
- 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:21a1ba18e4d4158c@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:475
 DTSTART:20260808T190000Z
 DTEND:20260808T205500Z
@@ -487,14 +487,14 @@ SUMMARY:⚪️⚫️ Juventus – Hammarby Women [3-1] (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 3-
- 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:cd20df11bd38b91c@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:67
 DTSTART:20260826T184500Z
 DTEND:20260826T204000Z
@@ -502,14 +502,14 @@ SUMMARY:⚪️⚫️ St. Pölten Women – Juventus [0-3] (A) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 0-
- 3\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 3\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:05e1200d24786776@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:408
 DTSTART:20260902T183000Z
 DTEND:20260902T202500Z
@@ -517,14 +517,14 @@ SUMMARY:⚪️⚫️ Juventus – St. Pölten Women [1-1] (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: beIN Sports (MENA/Asia feed\, all matches)\nResult: 1-
- 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ 1\n\nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:891ba9132e1dc9be@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:461
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
@@ -534,14 +534,14 @@ DESCRIPTION:Competition: Serie A Women's Cup\nSemifinal\nVenue: Stadio Co
  munale Vittorio Pozzo-La Marmora\, Biella\nTV / streaming: Sky Sport\, N
  OW\n  (usual broadcaster for this competition -- unconfirmed)\nKickoff t
  ime not yet announced -- shown as all-day.\n\nSources: overrides.yml\nUp
- dated: 2026-09-10 10:01 UTC
+ dated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women's Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:f6599db14c6eeba3@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:506
 DTSTART:20260919T160000Z
 DTEND:20260919T175500Z
@@ -550,14 +550,14 @@ LOCATION:Stadio dei Pini Torquato Bresciani\, Viareggio
 DESCRIPTION:Competition: Serie A Women's Cup\nFinal\nVenue: Stadio dei Pi
  ni Torquato Bresciani\, Viareggio\nTV / streaming: Sky Sport\, NOW\n  (u
  sual broadcaster for this competition -- unconfirmed)\n\nSources: overri
- des.yml\nUpdated: 2026-09-10 10:01 UTC
+ des.yml\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women's Cup
 END:VEVENT
 BEGIN:VEVENT
 UID:23578386d78c39c5@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:430
 DTSTART:20260922T190000Z
 DTEND:20260922T205500Z
@@ -565,14 +565,14 @@ SUMMARY:⚪️⚫️ Juventus – Benfica (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: Disney+\, beIN Sports (MENA/Asia feed\, all matches)\n
- \nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ \nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:2dd7083db5d65ace@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
@@ -580,14 +580,14 @@ SUMMARY:⚪️⚫️ Juventus – Napoli (H) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:6c070957d1105348@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:872
 DTSTART:20260930T164500Z
 DTEND:20260930T184000Z
@@ -595,14 +595,14 @@ SUMMARY:⚪️⚫️ BK Häcken – Juventus (A) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: Disney+\, beIN Sports (MENA/Asia feed\, all matches)\n
- \nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ \nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:d9bf456666a7e393@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
@@ -610,14 +610,14 @@ SUMMARY:⚪️⚫️ Milan – Juventus (A) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:48b989e652962e95@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
@@ -626,14 +626,14 @@ SUMMARY:⚪️⚫️ Juventus – Como 1907 (H) · Serie A Women · time
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:0ace7aa5f22e457f@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
@@ -641,14 +641,14 @@ SUMMARY:⚪️⚫️ Juventus – Roma (H) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:6373253f4a5a80ed@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:829
 DTSTART:20261029T174500Z
 DTEND:20261029T194000Z
@@ -656,14 +656,14 @@ SUMMARY:⚪️⚫️ Austria Wien – Juventus (A) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: Disney+\, beIN Sports (MENA/Asia feed\, all matches)\n
- \nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ \nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:531485df2020cc2c@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
@@ -672,14 +672,14 @@ SUMMARY:⚪️⚫️ Fiorentina – Juventus (A) · Serie A Women · time
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:7b9900244adb1a77@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
@@ -688,14 +688,14 @@ SUMMARY:⚪️⚫️ Juventus – Sassuolo (H) · Serie A Women · time T
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:fd0b35ba80e7fd3b@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:442
 DTSTART:20261111T200000Z
 DTEND:20261111T215500Z
@@ -703,14 +703,14 @@ SUMMARY:⚪️⚫️ Juventus – OL Lyonnes (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: Disney+\, beIN Sports (MENA/Asia feed\, all matches)\n
- \nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ \nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:54ef735aa6f073ba@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
@@ -718,14 +718,14 @@ SUMMARY:⚪️⚫️ Inter – Juventus (A) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:17331002bf679ffc@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:703
 DTSTART:20261118T200000Z
 DTEND:20261118T215500Z
@@ -733,14 +733,14 @@ SUMMARY:⚪️⚫️ Juventus – OH Leuven (H) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: Disney+\, beIN Sports (MENA/Asia feed\, all matches)\n
- \nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ \nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:3e839cfcfaf890ca@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
@@ -748,14 +748,14 @@ SUMMARY:⚪️⚫️ Lazio – Juventus (A) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:b0d3118e690a77fb@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
@@ -764,14 +764,14 @@ SUMMARY:⚪️⚫️ Juventus – Como Women (H) · Serie A Women · time
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:650cea7b903538f3@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:553
 DTSTART:20261216T200000Z
 DTEND:20261216T215500Z
@@ -779,14 +779,14 @@ SUMMARY:⚪️⚫️ Paris Saint-Germain – Juventus (A) · UWCL
 DESCRIPTION:Competition: UEFA Women's Champions League\nVenue: TBC\nTV / 
  streaming: Disney+\n  (usual broadcaster for this competition -- unconfi
  rmed)\nElsewhere: Disney+\, beIN Sports (MENA/Asia feed\, all matches)\n
- \nSources: fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ \nSources: fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:UEFA Women's Champions League
 END:VEVENT
 BEGIN:VEVENT
 UID:a028c76c9b3acab1@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
@@ -794,14 +794,14 @@ SUMMARY:⚪️⚫️ Parma – Juventus (A) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:d50b5a630007def4@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
@@ -810,14 +810,14 @@ SUMMARY:⚪️⚫️ Juventus – Ternana (H) · Serie A Women · time TB
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:43c397a8cb9bf880@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
@@ -825,14 +825,14 @@ SUMMARY:⚪️⚫️ Napoli – Juventus (A) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:a18396db763a928a@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
@@ -840,14 +840,14 @@ SUMMARY:⚪️⚫️ Juventus – Milan (H) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:1e1dea52553809e1@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
@@ -856,14 +856,14 @@ SUMMARY:⚪️⚫️ Como 1907 – Juventus (A) · Serie A Women · time
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:8159aed633fb0cb3@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
@@ -871,14 +871,14 @@ SUMMARY:⚪️⚫️ Roma – Juventus (A) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:4e1614d3e9f4d9ce@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
@@ -887,14 +887,14 @@ SUMMARY:⚪️⚫️ Juventus – Fiorentina (H) · Serie A Women · time
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:171c0dfd7cf3e522@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
@@ -903,14 +903,14 @@ SUMMARY:⚪️⚫️ Sassuolo – Juventus (A) · Serie A Women · time T
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:7df05c35660fe52f@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
@@ -918,14 +918,14 @@ SUMMARY:⚪️⚫️ Juventus – Inter (H) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:f7518275c1372ab9@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
@@ -933,14 +933,14 @@ SUMMARY:⚪️⚫️ Juventus – Lazio (H) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:d6d7dfee8a3ecee3@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
@@ -949,14 +949,14 @@ SUMMARY:⚪️⚫️ Como Women – Juventus (A) · Serie A Women · time
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:aacdeff6821bb4d8@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
@@ -964,14 +964,14 @@ SUMMARY:⚪️⚫️ Juventus – Parma (H) · Serie A Women · time TBD
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
 END:VEVENT
 BEGIN:VEVENT
 UID:8ec6231115164137@juve-women-cal
-DTSTAMP:20260910T100136Z
+DTSTAMP:20260910T191550Z
 SEQUENCE:504
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
@@ -980,7 +980,7 @@ SUMMARY:⚪️⚫️ Ternana – Juventus (A) · Serie A Women · time TB
 DESCRIPTION:Competition: Serie A Women\nVenue: TBC\nTV / streaming: DAZN\
  , Rai Sport / RaiPlay\n  (usual broadcaster for this competition -- unco
  nfirmed)\nKickoff time not yet announced -- shown as all-day.\n\nSources
- : fixtur.es\nUpdated: 2026-09-10 10:01 UTC
+ : fixtur.es\nUpdated: 2026-09-10 19:15 UTC
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 CATEGORIES:Serie A Women
