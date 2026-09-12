@@ -2,17 +2,15 @@ name: Update calendar
 
 on:
   schedule:
-    # 05:40 and 16:40 UTC. Twice a day catches same-day kickoff-time
-    # announcements and postponements without hammering the sources.
     - cron: "40 5 * * *"
     - cron: "40 16 * * *"
-  workflow_dispatch: # lets you run it by hand from the Actions tab
+  workflow_dispatch:
   push:
-    # Rebuild immediately when you edit a fixture or a broadcaster by hand.
     paths:
       - "overrides.yml"
       - "config.yml"
       - "build_calendar.py"
+      - "broadcast.py"
 
 permissions:
   contents: write
@@ -25,9 +23,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -36,37 +34,30 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build calendar
-        env:
-          # Optional. Add it under Settings > Secrets and variables > Actions
-          # to pull in the cup competitions and venue names.
-          SPORTSDB_KEY: ${{ secrets.SPORTSDB_KEY }}
         run: python build_calendar.py --verbose
 
-      - name: Commit if the feed changed
+      - name: Commit and push if the feed changed
         run: |
+          set -euo pipefail
+
+          if git diff --quiet -- docs/juventus-women.ics; then
+            echo "Feed unchanged; nothing to commit."
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # DTSTAMP and the "Updated:" line change on every run, so compare
-          # only the lines that actually matter. Without this the repo would
-          # get a pointless commit twice a day forever.
-          if git diff --quiet -- docs/juventus-women.ics; then
-            echo "No changes at all."
-            exit 0
-          fi
-
-          meaningful=$(git diff -U0 -- docs/juventus-women.ics \
-            | grep -E '^[+-]' \
-            | grep -vE '^(\+\+\+|---)' \
-            | grep -vE '^[+-](DTSTAMP|SEQUENCE)' \
-            | grep -vciE 'Updated: [0-9]{4}-' || true)
-
-          if [ "$meaningful" -eq 0 ]; then
-            echo "Only timestamps moved; discarding."
-            git checkout -- docs/juventus-women.ics
-            exit 0
-          fi
-
           git add docs/juventus-women.ics
           git commit -m "Update fixtures ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-          git push
+
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected; rebasing (attempt $attempt)."
+            git pull --rebase --autostash origin main
+          done
+
+          echo "Could not push after 3 attempts." >&2
+          exit 1
