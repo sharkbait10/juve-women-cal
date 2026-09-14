@@ -30,7 +30,7 @@ matches:
   # the opponent isn't, so it shows as TBD until the other semi is played.
   # Delete this block if they don't qualify.
   - date: "2026-09-19"
-    opponent: "TBD"
+    opponent: "Roma"
     home: false
     competition: "Serie A Women's Cup"
     round: "Final"

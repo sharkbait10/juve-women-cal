@@ -587,6 +587,7 @@ def build_ics(matches: list[Match], cfg: dict) -> str:
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{ics_escape(name)}",
         f"X-WR-CALDESC:{ics_escape(cfg.get('calendar_description', ''))}",
+        f"X-BUILT:{stamp}",
         "X-PUBLISHED-TTL:PT12H",
         "REFRESH-INTERVAL;VALUE=DURATION:PT12H",
     ]
@@ -694,9 +695,6 @@ def _description(match: Match) -> str:
         rows.append(f"Kickoff time from: {match.time_source}")
     rows.append("")
     rows.append("Sources: " + ", ".join(match.sources))
-    rows.append(
-        "Updated: " + datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    )
     return "\n".join(rows)
 
 
@@ -710,6 +708,21 @@ def load_yaml(path: Path) -> dict:
         return {}
     with path.open(encoding="utf-8") as fh:
         return yaml.safe_load(fh) or {}
+
+
+def _significant(ics_text: str) -> str:
+    """The feed with per-run timestamps stripped.
+
+    DTSTAMP and X-BUILT change on every single build. Comparing on this
+    normalised form means the file is only rewritten when something real
+    changed, so `git diff` is empty on a no-op run and the workflow needs no
+    clever shell to decide whether to commit.
+    """
+    return "\n".join(
+        line
+        for line in ics_text.replace("\r\n", "\n").split("\n")
+        if not line.startswith(("DTSTAMP:", "X-BUILT:"))
+    )
 
 
 def main(argv: Iterable[str] | None = None) -> int:
@@ -803,7 +816,18 @@ def main(argv: Iterable[str] | None = None) -> int:
         return 0
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUT_PATH.write_text(build_ics(matches, cfg), encoding="utf-8")
+    new_text = build_ics(matches, cfg)
+
+    if OUT_PATH.exists():
+        try:
+            old_text = OUT_PATH.read_text(encoding="utf-8")
+        except OSError:
+            old_text = ""
+        if _significant(old_text) == _significant(new_text):
+            print("no changes since last build -- leaving the feed untouched")
+            return 0
+
+    OUT_PATH.write_text(new_text, encoding="utf-8")
     print(f"wrote {OUT_PATH.relative_to(ROOT)}")
     return 0
 
